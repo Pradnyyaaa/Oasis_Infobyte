@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
 :root {
-  --primary-color: #57595c;
+  --primary-color: #545454;
   --primary-color-dark: #2f73d9;
   --secondary-color: #e4e0dd;
   --text-dark: #0d213f;
   --text-light: #767268;
-  --extra-light: #f3efef;
+  --light: #f3efef;
   --max-width: 1200px;
 }
 
@@ -49,7 +49,7 @@
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--extra-light);
+  color: var(--light);
   background-color: var(--primary-color);
   border-radius: 5rem;
   cursor: pointer;
@@ -133,7 +133,7 @@ header {
   position: absolute;
   top: 50%;
   left: 45%;
-  border: 0.5rem solid var(--extra-light);
+  border: 0.5rem solid var(--light);
   border-radius: 2rem;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -209,7 +209,7 @@ header {
   padding: 0.5rem;
   font-size: 1rem;
   color: red;
-  background-color: var(--extra-light);
+  background-color: var(--light);
   border-radius: 80%;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -270,7 +270,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  color: var(--extra-light);
+  color: var(--light);
   background-color: rgba(34, 34, 34, 0.658);
   backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -323,7 +323,7 @@ header {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-dark);
-  background-color: var(--extra-light);
+  background-color: var(--light);
   cursor: pointer;
 }
 
@@ -417,7 +417,7 @@ header {
   width: 100%;
   max-width: 400px;
   display: flex;
-  background-color: var(--extra-light);
+  background-color: var(--light);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 5rem;
 }
